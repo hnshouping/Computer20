@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\WmiInfo.dll
+bin\Debug\WmiInfo.pdb
+bin\Debug\Computer.pdb
+obj\Debug\WmiInfo.dll
+obj\Debug\WmiInfo.pdb
+bin\Debug\Computer.dll

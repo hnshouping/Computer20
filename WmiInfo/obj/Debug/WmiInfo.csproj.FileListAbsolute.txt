@@ -1,0 +1,7 @@
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\bin\Debug\WmiInfo.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\bin\Debug\WmiInfo.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\bin\Debug\Computer.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\bin\Debug\Computer.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\obj\Debug\WmiInfo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\obj\Debug\WmiInfo.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\WmiInfo\obj\Debug\WmiInfo.pdb

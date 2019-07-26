@@ -1,0 +1,4 @@
+C:\Users\Administrator\Downloads\Computer20\Computer20\Computer\bin\Debug\Computer.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\Computer\bin\Debug\Computer.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\Computer\obj\Debug\Computer.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\Computer\obj\Debug\Computer.pdb

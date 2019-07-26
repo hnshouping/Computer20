@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4021C3F7-19B7-4264-A64F-F4CD69B0DF99}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Computer</RootNamespace>
+    <AssemblyName>Computer</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CIMCard.cs" />
+    <Compile Include="CIMCDROMDrive.cs" />
+    <Compile Include="CIMChip.cs" />
+    <Compile Include="CIMController.cs" />
+    <Compile Include="CIMDirectory.cs" />
+    <Compile Include="CIMDiskDrive.cs" />
+    <Compile Include="CIMDisketteDrive.cs" />
+    <Compile Include="CIMLogicalDevice.cs" />
+    <Compile Include="CIMLogicalDisk.cs" />
+    <Compile Include="CIMLogicalElement.cs" />
+    <Compile Include="CIMLogicalFile.cs" />
+    <Compile Include="CIMManagedSystemElement.cs" />
+    <Compile Include="CIMMediaAccessDevice.cs" />
+    <Compile Include="CIMOperatingSystem.cs" />
+    <Compile Include="CIMPCVideoController.cs" />
+    <Compile Include="CIMPhysicalComponent.cs" />
+    <Compile Include="CIMPhysicalElement.cs" />
+    <Compile Include="CIMPhysicalMemory.cs" />
+    <Compile Include="CIMPhysicalPackage.cs" />
+    <Compile Include="CIMProcess.cs" />
+    <Compile Include="CIMProcessor.cs" />
+    <Compile Include="CIMService.cs" />
+    <Compile Include="CIMSetting.cs" />
+    <Compile Include="CIMStatisticalInformation.cs" />
+    <Compile Include="CIMStorageExtent.cs" />
+    <Compile Include="CIMVideoController.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Win32Account.cs" />
+    <Compile Include="Win32ACE.cs" />
+    <Compile Include="Win32BaseService.cs" />
+    <Compile Include="Win32Class\Win32BaseBoard.cs" />
+    <Compile Include="Win32Class\Win32CDROMDrive.cs" />
+    <Compile Include="Win32Class\Win32Directory.cs" />
+    <Compile Include="Win32Class\Win32DiskDrive.cs" />
+    <Compile Include="Win32Class\Win32FloppyDrive.cs" />
+    <Compile Include="Win32Class\Win32Group.cs" />
+    <Compile Include="Win32Class\Win32LogicalDisk.cs" />
+    <Compile Include="Win32Class\Win32LogicalProgramGroup.cs" />
+    <Compile Include="Win32Class\Win32NetworkAdapterConfiguration.cs" />
+    <Compile Include="Win32Class\Win32NTLogEvent.cs" />
+    <Compile Include="Win32Class\Win32OperatingSystem.cs" />
+    <Compile Include="Win32Class\Win32PageFileUsage.cs" />
+    <Compile Include="Win32Class\Win32PerfRawDataPerfOSMemory.cs" />
+    <Compile Include="Win32Class\Win32PerfRawDataPerfOSProcessor.cs" />
+    <Compile Include="Win32Class\Win32PerfRawDataPerfProcProcess.cs" />
+    <Compile Include="Win32Class\Win32PhysicalMemory.cs" />
+    <Compile Include="Win32Class\Win32Process.cs" />
+    <Compile Include="Win32Class\Win32Processor.cs" />
+    <Compile Include="Win32Class\Win32Service.cs" />
+    <Compile Include="Win32Class\Win32Share.cs" />
+    <Compile Include="Win32Class\Win32SoundDevice.cs" />
+    <Compile Include="Win32Class\Win32VideoController.cs" />
+    <Compile Include="Win32Class\YxDeserialize.cs" />
+    <Compile Include="Win32MethodParameterClass.cs" />
+    <Compile Include="Win32Perf.cs" />
+    <Compile Include="Win32PerfRawData.cs" />
+    <Compile Include="Win32ProcessStartup.cs" />
+    <Compile Include="Win32ProgramGroupOrItem.cs" />
+    <Compile Include="Win32SecurityDescriptor.cs" />
+    <Compile Include="Win32Trustee.cs" />
+    <Compile Include="WmiCommon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

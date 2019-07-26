@@ -1,0 +1,9 @@
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\bin\Debug\Computer.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\bin\Debug\WmiInfo.dll
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\bin\Debug\Computer.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\bin\Debug\WmiInfo.pdb
+C:\Users\Administrator\Downloads\Computer20\Computer20\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
